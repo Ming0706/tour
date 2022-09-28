@@ -1,4 +1,4 @@
-package tour
+package main
 
 import (
 	"flag"
@@ -12,4 +12,8 @@ func main() {
 	flag.Parse()
 
 	log.Printf("name: %s", name)
+}
+
+func Main() {
+	println("test")
 }
